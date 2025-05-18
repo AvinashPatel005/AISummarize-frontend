@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://aisummarize-backend.onrender.com/api/notes/api',
+  baseURL: 'https://aisummarize-backend.onrender.com/api/',
 });
 
 api.interceptors.request.use((config) => {
